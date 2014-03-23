@@ -1,0 +1,3 @@
+﻿Contains a re-implementation of JGibbLabeledLDA (https://github.com/myleott/JGibbLabeledLDA) protected by Myle Ott under GPLv2.
+
+The SLDA implementation contains re-implemented functions of Mallet (CPL, http://mallet.cs.umass.edu/) and Gregor Heinrich's Infinite LDA (GPLv2, http://www.arbylon.net/resources.html).

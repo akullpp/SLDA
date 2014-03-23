@@ -1,0 +1,24 @@
+Created with Python 2.7, tested on Windows 7.
+License: No license restrictions.
+
+1. These files process the corpora, print statistics and evaluate the results from the models.
+
+2. To use them, you need to uncomment the needed methods in main.py
+
+3. You will also need to change the path names to existing paths in structures.py
+
+
+Example Workflow: The OpenSubtitles2011 corpus
+
+1. Place the align_de-en.xml.gz in the ./corpus/ folder
+2. Place the de/ and en/ folders in ./corpus/OpenSubtitles2011
+3. Use extractAlignmentsLXML
+4. Use cleanCopyDocuments
+5. Use createProjection
+6. Use convertFormat
+7. Use splitText
+8. Use removeLabels
+9. Copy ./corpus/test and ./corpus/train to the data folder of SLDA
+9. Use SLDA implementation
+10. Place result in ./corpus
+11. Use evaluateSLDA

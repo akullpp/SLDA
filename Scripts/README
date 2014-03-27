@@ -1,5 +1,5 @@
 Created with Python 2.7, tested on Windows 7.
-License: No license restrictions.
+License: MIT
 
 1. These files process the corpora, print statistics and evaluate the results from the models.
 
